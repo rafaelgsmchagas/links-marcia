@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { AnimatedBackground } from "@/components/AnimatedBackground";
+import { WavyBackground } from "@/components/ui/wavy-background";
 import LinktreeHeader from "@/components/LinktreeHeader";
 import LinkButton from "@/components/LinkButton";
 import SocialFooter from "@/components/SocialFooter";
@@ -77,10 +77,14 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-[#030303] relative overflow-hidden">
-      {/* Background animado com formas geométricas */}
-      <AnimatedBackground />
-      
+    <WavyBackground 
+      containerClassName="min-h-screen"
+      backgroundFill="#030303"
+      colors={["#38bdf8", "#818cf8", "#c084fc", "#e879f9", "#22d3ee"]}
+      waveOpacity={0.8}
+      blur={15}
+      speed="slow"
+    >
       <motion.div 
         className="container max-w-md mx-auto py-8 px-4 relative z-10"
         variants={containerVariants}
@@ -119,7 +123,7 @@ const Index = () => {
           <SocialFooter />
         </motion.div>
       </motion.div>
-    </div>
+    </WavyBackground>
   );
 };
 
