@@ -90,7 +90,7 @@ const Index = () => {
         {/* Cabeçalho com foto e descrição */}
         <motion.div variants={itemVariants}>
           <LinktreeHeader 
-            name="Rafael Chagas"
+            name="Márcia Moro Chagas"
             description="Advogado e Empreendedor"
           />
         </motion.div>
