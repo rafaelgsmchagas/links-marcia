@@ -31,24 +31,6 @@ const linkData = [
     link: "https://rhtrabalhista.com.br/",
     alt: "RH Trabalhista",
     title: "Visite o site RH Trabalhista"
-  },
-  {
-    image: "/lovable-uploads/cbc8c522-2575-4ccc-88eb-eb68c83341bf.png",
-    link: "https://simulatax.com.br/",
-    alt: "Simulatax",
-    title: "Visite o site Simulatax"
-  },
-  {
-    image: "/lovable-uploads/e085ec84-2370-4302-ab1a-f162d4d45ab7.png",
-    link: "https://consumidor.app/",
-    alt: "Consumidor App",
-    title: "Visite o site Consumidor App"
-  },
-  {
-    image: "/lovable-uploads/dfad719a-f0c1-4929-87c8-77c737544ba1.png",
-    link: "https://jusvalor.com.br/",
-    alt: "Jusvalor",
-    title: "Visite o site Jusvalor"
   }
 ];
 
