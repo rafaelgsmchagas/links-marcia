@@ -81,12 +81,12 @@ const Index = () => {
       containerClassName="min-h-screen"
       backgroundFill="#030303"
       colors={["#38bdf8", "#818cf8", "#c084fc", "#e879f9", "#22d3ee"]}
-      waveOpacity={0.8}
-      blur={15}
+      waveOpacity={0.3}
+      blur={10}
       speed="slow"
     >
       <motion.div 
-        className="container max-w-md mx-auto py-8 px-4 relative z-10"
+        className="container max-w-md mx-auto py-8 px-4 relative z-30"
         variants={containerVariants}
         initial="hidden"
         animate="visible"
