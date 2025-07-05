@@ -19,18 +19,6 @@ const linkData = [
     link: "https://chagasmoroadvogados.com.br/",
     alt: "Chagas Moro Advogados",
     title: "Visite o site da Chagas Moro Advogados"
-  },
-  {
-    image: "/lovable-uploads/11c00701-ca0f-4fa3-bb97-72c2784342df.png",
-    link: "https://palavracatolica.com.br/",
-    alt: "Palavra Católica",
-    title: "Visite o site Palavra Católica"
-  },
-  {
-    image: "/lovable-uploads/e8be353d-b842-49c9-b357-ffad07769f55.png",
-    link: "https://rhtrabalhista.com.br/",
-    alt: "RH Trabalhista",
-    title: "Visite o site RH Trabalhista"
   }
 ];
 
