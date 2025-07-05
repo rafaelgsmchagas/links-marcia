@@ -13,7 +13,7 @@ interface SocialFooterProps {
 const defaultSocialLinks: SocialLink[] = [
   {
     icon: Instagram,
-    url: "https://www.instagram.com/rafaelchagasadv/",
+    url: "https://www.instagram.com/marciamoroadvogada/",
     label: "Instagram"
   },
   {
