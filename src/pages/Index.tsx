@@ -65,7 +65,7 @@ const Index = () => {
         <motion.div variants={itemVariants}>
           <LinktreeHeader 
             name="Márcia Moro Chagas"
-            description="Advogado e Empreendedor"
+            description="Advogada e Lançadora"
             profileImage="/lovable-uploads/727657bd-d840-4045-9d65-2aec1aea2df4.png"
           />
         </motion.div>
