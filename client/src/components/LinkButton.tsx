@@ -1,5 +1,7 @@
 import { StarBorder } from "@/components/ui/star-border";
 
+import botao_chagas from "@assets/botao chagas.png";
+
 interface LinkButtonProps {
   image: string;
   link: string;
@@ -22,7 +24,7 @@ const LinkButton = ({ image, link, alt, title }: LinkButtonProps) => {
     >
       <div className="flex items-center justify-center p-1 rounded-[16px] overflow-hidden bg-black/20">
         <img
-          src={image}
+          src={botao_chagas}
           alt={alt}
           className="w-full h-14 md:h-16 object-cover transition-all duration-300 hover:scale-105 rounded-[12px]"
         />
