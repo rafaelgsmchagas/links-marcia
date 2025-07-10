@@ -105,3 +105,5 @@ The application is designed for scalability with clean separation of concerns an
   - Created database connection layer using Drizzle ORM with Neon serverless
   - Applied database schema migrations with `npm run db:push`
   - Database is now fully functional and ready for use
+  - Added Netlify configuration (note: Netlify incompatible with full-stack - use Vercel/Railway for production)
+  - Created deployment guide explaining options for production deployment
