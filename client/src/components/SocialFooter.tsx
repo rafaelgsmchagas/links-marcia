@@ -38,7 +38,7 @@ const SocialFooter = ({
       </div>
       
       <div className="text-center mt-6">
-        <p className="text-xs text-white/40">© 2025 - Todos os direitos reservados</p>
+        <p className="text-xs text-white/40">© 2024 - Todos os direitos reservados</p>
       </div>
     </footer>;
 };
