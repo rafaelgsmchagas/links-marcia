@@ -9,7 +9,7 @@ interface LinktreeHeaderProps {
 const LinktreeHeader = ({ 
   name = "Seu Nome",
   description = "Descrição curta e elegante sobre você ou seu negócio", 
-  profileImage = "/lovable-uploads/2044e468-ad9a-47d1-af06-3547cfe58fdf.png"
+  profileImage = profileAvatar
 }: LinktreeHeaderProps) => {
   return (
     <header className="text-center mb-8 px-4 relative z-20">
