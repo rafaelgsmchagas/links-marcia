@@ -6,16 +6,17 @@ import LinktreeHeader from "@/components/LinktreeHeader";
 import LinkButton from "@/components/LinkButton";
 import SocialFooter from "@/components/SocialFooter";
 
-// Importe suas imagens personalizadas
+// Import local assets
 import linkButton1 from "@/assets/link-button-1.jpg";
 import linkButton2 from "@/assets/link-button-2.jpg";
 import linkButton3 from "@/assets/link-button-3.jpg";
 import linkButton4 from "@/assets/link-button-4.jpg";
+import profileAvatar from "@/assets/profile-avatar.jpg";
 
-// Configuração dos links - Você pode facilmente modificar estes dados
+// Configure links - You can easily modify this data
 const linkData = [
   {
-    image: "/lovable-uploads/a63bc9af-1fa1-42c4-b6c8-359e515f2c79.png",
+    image: linkButton1,
     link: "https://chagasmoroadvogados.com.br/",
     alt: "Chagas Moro Advogados",
     title: "Visite o site da Chagas Moro Advogados"
@@ -61,12 +62,12 @@ const Index = () => {
         initial="hidden"
         animate="visible"
       >
-        {/* Cabeçalho com foto e descrição */}
+        {/* Header with photo and description */}
         <motion.div variants={itemVariants}>
           <LinktreeHeader 
             name="Márcia Moro Chagas"
             description="Advogada e Lançadora"
-            profileImage="/lovable-uploads/727657bd-d840-4045-9d65-2aec1aea2df4.png"
+            profileImage={profileAvatar}
           />
         </motion.div>
 
