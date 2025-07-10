@@ -2,6 +2,8 @@ import profileAvatar from "@/assets/profile-avatar.jpg";
 
 import logo_marcia_moro from "@assets/logo marcia moro.png";
 
+import foto_marcia from "@assets/foto marcia.jpg";
+
 interface LinktreeHeaderProps {
   name?: string;
   description?: string;
@@ -19,7 +21,7 @@ const LinktreeHeader = ({
       <div className="backdrop-blur-sm bg-black/20 rounded-2xl p-6 border border-white/10">
         <div className="mb-6">
           <img
-            src={logo_marcia_moro}
+            src={foto_marcia}
             alt="Profile"
             className="w-32 h-32 md:w-40 md:h-40 rounded-full mx-auto object-cover border-4 border-white/30 shadow-2xl"
             style={{ 
